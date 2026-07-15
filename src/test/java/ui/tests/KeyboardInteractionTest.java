@@ -21,6 +21,6 @@ public class KeyboardInteractionTest extends BaseTest {
         AutoCompletePage acPage = new AutoCompletePage(page);
         acPage.enterTextInInputField(prop.getProperty("inputText"));
         page.keyboard().press("Escape");
-        Assert.assertTrue(acPage.getTextInInputField()=="");
+        Assert.assertTrue(acPage.getTextInInputField().equals(null));
     }
 }
