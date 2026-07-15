@@ -2,10 +2,8 @@ package api.tests;
 
 import io.restassured.module.jsv.JsonSchemaValidator;
 import io.restassured.response.Response;
-import io.restassured.response.ResponseBody;
 import org.testng.Assert;
 import org.testng.annotations.Test;
-import ui.config.BaseTest;
 
 public class SchemaValidationTest extends BaseAPITest {
 
