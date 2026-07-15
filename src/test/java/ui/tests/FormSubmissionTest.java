@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 import ui.config.BaseTest;
 import ui.pages.AutoCompletePage;
 
-public class FormSubmission extends BaseTest {
+public class FormSubmissionTest extends BaseTest {
 
     @Test
     public void verifySuccessfulFormSubmission(){

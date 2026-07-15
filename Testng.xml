@@ -3,7 +3,7 @@
 <suite name="Practical-Assignment-SDET" verbose="1" >
     <test name="UI Test" >
         <classes>
-            <class name="ui.tests.FormSubmission" />
+            <class name="ui.tests.FormSubmissionTest" />
             <class name="ui.tests.KeyboardInteractionTest" />
             <class name="ui.tests.SuggestionFilteringTest" />
             <class name="ui.tests.SuggestionSelectionTest" />

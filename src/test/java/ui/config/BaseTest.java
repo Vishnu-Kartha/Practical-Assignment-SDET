@@ -18,7 +18,7 @@ public class BaseTest {
     protected Page page;
     protected final String BASE_URL = "https://test.com/autocomplete-form";
     public Properties prop;
-    String configPath = "src/test/java/ui/config/config.properties";
+    String configPath = "src/test/java/ui/config/testData.properties";
 
     @BeforeMethod
     public void setUp() throws IOException {
