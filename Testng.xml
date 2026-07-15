@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Practical-Assignment-SDET" verbose="1" >
+    <test name="UI Test" >
+        <classes>
+            <class name="ui.tests.FormSubmission" />
+            <class name="ui.tests.KeyboardInteractionTest" />
+            <class name="ui.tests.SuggestionFilteringTest" />
+            <class name="ui.tests.SuggestionSelectionTest" />
+            <class name="ui.tests.TabNavigationTest" />
+        </classes>
+    </test>
+    <test name="API Test" >
+        <classes>
+            <class name="api.tests.DatatypeValidationTest" />
+            <class name="api.tests.LocaleValidationTest" />
+            <class name="api.tests.SchemaValidationTest" />
+            <class name="api.tests.SuggestionValidationTest" />
+        </classes>
+    </test>
+
+</suite>
